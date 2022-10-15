@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url(https://fonts.intercomcdn.com/proxima-nova/proxima-nova-all.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:100, 400, 500');
+.head_names{
+    font-family: "Graphik";
+    font-size: 22px;
+    line-height: 30px;
+    color: #222;
+    font-weight: 600;
+}
+body {
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222;
+    min-width: 1024px;
+    position: relative;
+    background-color: #e8e8e8;
+    padding: 0;
+}
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.side_nav_ic{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.side_nav_lower_ic{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-right: 16px;
+  margin-left: 16px;
+  stroke: #737376;
+}
+
+
