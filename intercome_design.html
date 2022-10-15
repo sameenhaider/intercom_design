@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
+  <link href="http://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
 </head>
 <body>
 <div class="flex h-full m-h-full">
@@ -48,9 +49,14 @@
                 <div class="h-[16px]"></div>
         </div>
             <div class="flex justify-end h-[411px] flex-col ">
+                <div>
                     <div class="side_nav_lower_ic">
-                    <svg viewBox="0 0 32 30" stroke-width="2"  width="32" height="30" class="hover:stroke-blue-500 text-gray" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.394 24.08l-.189-.08H9a2 2 0 01-2-2V9a2 2 0 012-2h14a2 2 0 012 2v17.483l-5.606-2.402z"></path><path class="left-nav__secondary-icon__stroke left-nav__secondary-icon__messenger" d="M11 18s1.75 1.5 5 1.5 5-1.5 5-1.5"></path></svg>
+                    <svg viewBox="0 0 32 30" stroke-width="2"  width="32" height="30" class="hover:stroke-blue-500 text-gray" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.394 24.08l-.189-.08H9a2 2 0 01-2-2V9a2 2 0 012-2h14a2 2 0 012 2v17.483l-5.606-2.402z"></path><path d="M11 18s1.75 1.5 5 1.5 5-1.5 5-1.5"></path></svg>
                     </div>
+<!--                 <div class="noti absolute">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="3" fill="#fd3a57"></circle><circle cx="8" cy="8" r="6" stroke="#fd3a57" fill="transparent" stroke-width="2"></circle></svg>
+                </div> -->
+                </div>
                     <div class="side_nav_lower_ic">
                         <svg viewBox="0 0 32 30" stroke-width="2"  width="32" height="30" class="hover:stroke-blue-500" fill="none" xmlns="http://www.w3.org/2000/svg"><rect class="left-nav__secondary-icon__stroke left-nav__secondary-icon__appstore" x="21" y="17.5" width="0.1" height="8" rx=".5"></rect><rect class="left-nav__secondary-icon__stroke left-nav__secondary-icon__appstore" x="25.5" y="21" width="0.1" height="8" rx=".5" transform="rotate(90 25.5 21)"></rect><rect class="left-nav__secondary-icon__stroke" x="7" y="18" width="7" height="7" rx="2"></rect><rect class="left-nav__secondary-icon__stroke" x="18" y="7" width="7" height="7" rx="2"></rect><rect class="left-nav__secondary-icon__stroke" x="7" y="7" width="7" height="7" rx="2"></rect></svg>
                         </div>
@@ -63,16 +69,23 @@
             </div>
         </div>
     </div>
-    <div class="w-[264px] h-screen min-h-full bg-gray-100">
-        <div class="flex flex-col h-screen  justify-between p-4">
-            <div>
-                <h1></h1>
+    <div class="w-[230px] h-screen min-h-full bg-gray-100">
+            <div class="flex h-[65px] pl-[20px] pr-[12px] pt-[11px] pb-[11px] items-center">
+                <h1 class="head_names">Settings</h1></div>
+            <div class="main_nav flex-auto flex flex-col overflow-auto pt-[4px] pb-[4px] ">
+                <div class="general flex-initial flex flex-col pl-[12px] pr-[12px] h-[242px] min-h-0 ">
+                    <div class="flex-none pt-[6px] pb-[9px] pl-[8px] pr-[8px] leading-5">
+                        <a class="text-[14px] font-semibold">General
+                        <span class="inline-block rotate-90 ">
+                        <svg class="interface-icon o__standard o__standard__small-thin-right-arrow" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+
+                    </a>
+                    </div>
+                </div>
             </div>
-            <div>1</div>
-            <div>1</div>
     </div>
     </div>
-    <div class="w-full">    <div class="mt-20">
+<!--     <div class="w-full">    <div class="mt-20">
         <a href="#" class="group relative inline-block text-blue-500 underline hover:text-red-500 duration-300">
             Link with top tooltip
             <!-- Tooltip text here -->
@@ -81,6 +94,6 @@
                 is some extra useful information</span>
         </a>
     </div>
-</div>
+</div> -->
 </body>
 </html>
