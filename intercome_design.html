@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="flex h-full m-h-full">
-    <div class="sidenav w-[64px] bg-gray-200">
+    <div class="sidenav w-[64px] bg-zinc-400/[.2]">
         <div class="flex flex-col h-full">
             <div>
                 <div class=" ml-[17px] mr-[17px] pt-[16px] pb-[16px]">
@@ -69,27 +69,82 @@
             </div>
         </div>
     </div>
-    <div class="w-[230px] h-screen min-h-full bg-gray-100">
+    <div class="submenu w-[230px] h-screen min-h-full bg-zinc-300/[.2]">
             <div class="flex h-[65px] pl-[20px] pr-[12px] pt-[11px] pb-[11px] items-center">
-                <h1 class="head_names">Settings</h1></div>
-            <div class="main_nav flex-auto flex flex-col overflow-auto pt-[4px] pb-[4px] ">
-                <div class="general flex-initial flex flex-col pl-[12px] pr-[12px] h-[242px] min-h-0 ">
-                    <div class="flex-none pt-[6px] pb-[9px] pl-[8px] pr-[8px] leading-5">
+                <h1 class="head_names">Settings</h1>
+            </div>
+            <div class="main_nav pt-[4px] pb-[4px] ">
+                <div class="general pl-[12px] pr-[12px] h-[242px]">
+                    <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
                         <a class="text-[14px] font-semibold">General
-                        <span class="inline-block rotate-90 ">
-                        <svg class="interface-icon o__standard o__standard__small-thin-right-arrow" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
-
+                        <span class="inline-flex rotate-90 ">
+                        <svg class="align-bottom" width="16" height="16" viewBox="-3 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+                    </a>
+                    </div>
+                    <div class="submenu pl-[8px] pb-[9px]">
+                        <div class="sub_menu_it leading-5">
+                        General settings
+                    </div>
+                    <div class="sub_menu_it leading-5 text-blue-500">
+                        Teammates
+                    </div>
+                    <div class="sub_menu_it leading-5">
+                        Teams & roles
+                    </div>
+                    <div class="sub_menu_it leading-5">
+                        Teammate activity logs
+                    </div>
+                    <div class="sub_menu_it leading-5">
+                        Office hours
+                    </div>
+                    <div class="sub_menu_it leading-5">
+                        Blocked people
+                    </div>
+                    </div>
+                    <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold">ZesleCP data
+                        <span class="inline-flex">
+                        <svg class="align-bottom" width="16" height="16" viewBox="0 -3 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+                    </a>
+                    </div>
+                    <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold">Inbox settings
+                        <span class="inline-flex">
+                        <svg class="align-bottom" width="16" height="16" viewBox="0 -3 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+                    </a>
+                    </div>
+                                        <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold">Email
+                        <span class="inline-flex">
+                        <svg class="align-bottom" width="16" height="16" viewBox="0 -3 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+                    </a>
+                    </div>
+                    <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold align-center">Switch
+                        <span class="new leading-[18px] inline-block text-[13px] h-5 px-2 font-medium border border-solid rounded-[4px] bg-blue text-white border-black" data-test-stamp="">New</span>
+                    </a>
+                    </div>
+                                        <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold">Installation
+                        <span class="inline-flex">
+                        <svg class="align-bottom" width="16" height="16" viewBox="0 -3 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+                    </a>
+                    </div>
+                                        <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold">Security
+                        <span class="inline-flex">
+                        <svg class="align-bottom" width="16" height="16" viewBox="0 -3 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
+                    </a>
+                    </div>
+                                        <div class="pt-[5px] pb-[9px] pl-[8px] pr-[8px]">
+                        <a class="text-[14px] font-semibold">Apps & Integrations
+                        <span class="inline-flex">
+                        <svg class="align-bottom" width="16" height="16" viewBox="0 -3 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.434 3.434a.8.8 0 011.132 0l4 4a.8.8 0 010 1.132l-4 4a.8.8 0 01-1.132-1.132L8.87 8 5.434 4.566a.8.8 0 010-1.132z"></path></svg></span>
                     </a>
                     </div>
                 </div>
             </div>
     </div>
     </div>
-            <span
-                class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">This
-                is some extra useful information</span>
-        </a>
-    </div>
-</div>
 </body>
 </html>
